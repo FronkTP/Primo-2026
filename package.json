@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "ts-node --compiler-options \"{\\\"module\\\":\\\"CommonJS\\\"}\" src/main.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },
